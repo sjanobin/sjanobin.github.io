@@ -1,11 +1,11 @@
 body {
-	--tg-theme-bg-color: var(--surface1);
-	--tg-theme-text-color: var(--text1);
-	
 	margin-left: 1px;
 	margin-right: 1px;
 	padding: 0;
 	font-size: 18px;
+
+	--tg-theme-bg-color: var(--surface1);
+	--tg-theme-text-color: var(--text1);
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 
@@ -74,6 +74,11 @@ html{
 .container {
 	max-width: 390px;
 	position: center;
+
+	--tg-theme-bg-color: var(--surface1);
+	--tg-theme-text-color: var(--text1);
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
 }
 
 .inner_head {
@@ -101,7 +106,7 @@ html{
 	display: grid;
 	align-items: center;
 	grid-template-columns: 8fr 1fr 1.3fr 1fr;
-	grid-template-rows: min-content;
+	grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
 }
 
 .item_text {
@@ -199,7 +204,7 @@ a.item_text {
 
 .btn {
 	display: inline-block;
-	padding: 8px 16px;
+	padding: 4px 8px;
 	border: none;
 	background: #425cbb;
 	border-radius: 10px;
