@@ -12,11 +12,15 @@ body {
 }
 
 .hint{
-	color: var(--surface1);
+	color: var(--text1);
 }
 
 .link{
 	color: var(--text1);
+}
+
+.bacground{
+	color: var(--surface1);
 }
 
 @media (prefers-color-scheme: dark) {
