@@ -1,10 +1,13 @@
 body {
+	--tg-theme-bg-color: var(--surface1);
+	--tg-theme-text-color: var(--text1);
+	
 	margin-left: 1px;
 	margin-right: 1px;
 	padding: 0;
 	font-size: 18px;
-	color: var(--surface1);
-	background: var(--surface1);
+	color: var(--tg-theme-text-color);;
+	background: var(--tg-theme-bg-color);
 
 	--brand-hue: 200;
   	--brand-saturation: 100%;
